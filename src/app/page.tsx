@@ -47,7 +47,7 @@ export default function Home() {
             />
             <Link
               colorScheme="red"
-              href="https://drive.google.com/drive/folders/1f7v2lFe2yAOFFMyycB8H1Gct9BVNuEyb?usp=sharing"
+              href="https://docs.google.com/document/d/1sJHKmm32P7dNpsXzcNGJtS3k5NNLiWtnJpdAfGIPlOg/edit?usp=sharing"
               icon={BookSVG}
               name="English P2"
             />
