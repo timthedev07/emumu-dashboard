@@ -6,6 +6,7 @@ import { ChatBubbleSVG } from "../icons/ChatBubble";
 import { ChecklistSVG } from "../icons/Checklist";
 import { CSSVG } from "../icons/CS";
 import { DatabaseSVG } from "../icons/Database";
+import { MathSVG } from "../icons/Math";
 import { ScienceSVG } from "../icons/Science";
 
 export default function Home() {
@@ -64,6 +65,26 @@ export default function Home() {
               href="https://dl.ibdocs.re/IB%20PAST%20PAPERS%20-%20YEAR/"
               icon={ChecklistSVG}
               name="Past Papers"
+            />
+          </Section>
+          <Section heading="Formula Booklets">
+            <Link
+              colorScheme="yellow"
+              href="https://tuhsphysics.ttsd.k12.or.us/DocumentsAndLectures/Documents/Misc/DataBooklet2025.pdf"
+              icon={ScienceSVG}
+              name="Physics"
+            />
+            <Link
+              colorScheme="orange"
+              href="https://www.fjuhsd.org/cms/lib/CA02000098/Centricity/Domain/233/Formula%20booklet%20SL%20and%20HL%20May%202021.pdf"
+              icon={MathSVG}
+              name="Maths"
+            />
+            <Link
+              colorScheme="emerald"
+              href="https://iisjaipur.org/International_Wing/Formulae_sheet_(first_examinations_May_2016).pdf"
+              icon={BookSVG}
+              name="Business"
             />
           </Section>
         </div>
